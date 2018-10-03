@@ -1,6 +1,6 @@
 {
-  "name": "dashboard",
-  "version": "0.0.0",
+  "name": "client-dashboard",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -48,5 +48,7 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~2.9.2"
-  }
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT"
 }
