@@ -5,13 +5,12 @@ import {GridApi, GridReadyEvent} from "ag-grid-community";
 
 import {HorizontalBarComponent} from "../renderers/horizontal-bar/horizontal-bar.component";
 import {FX_CURRENCY_SYMBOLS} from "../../data/staticData";
-
-type ROW_DATA = string[];
+import {MESSAGE_DATA, ROW_DATA} from "../../types/types";
 
 @Component({
     selector: 'fx-quote-matrix',
     template: `
-        <ag-grid-angular style="height: 410px; width: 900px;"
+        <ag-grid-angular style="height: 410px; width: 800px;"
                          class="ag-theme-fresh"
 
                          [columnDefs]="columnDefs"
@@ -33,7 +32,7 @@ export class FxQuoteMatrixComponent {
     private columnDefs: any;
     private rowData: ROW_DATA;
 
-    private socket$: Subject<ROW_DATA>;
+    private socket$: Subject<MESSAGE_DATA>;
 
     constructor() {
         this.columnDefs = this.createColumnDefs();
@@ -49,7 +48,7 @@ export class FxQuoteMatrixComponent {
 
         const that = this;
         this.socket$.subscribe(
-            (rowData) => that.rowData = rowData,
+            (messageData) => that.rowData = messageData.fxData,
             (err) => console.error(err)
         );
     }
