@@ -11,6 +11,8 @@ import {TopMoversGridComponent} from './components/top-movers-grid/top-movers-gr
 import {StockPriceDeltaPanelComponent} from './components/stock-price-delta-panel/stock-price-delta-panel.component';
 import {StockPriceSummaryPanelComponent} from './components/stock-price-summary-panel/stock-price-summary-panel.component';
 import {StockPriceHistoricalChartPanelComponent} from './components/stock-price-historical-chart-panel/stock-price-historical-chart-panel.component';
+import { StoreModule } from '@ngrx/store';
+import { reducers, metaReducers } from './reducers';
 
 @NgModule({
     declarations: [
@@ -25,7 +27,8 @@ import {StockPriceHistoricalChartPanelComponent} from './components/stock-price-
     ],
     imports: [
         BrowserModule,
-        AgGridModule.withComponents([HorizontalBarComponent])
+        AgGridModule.withComponents([HorizontalBarComponent]),
+        StoreModule.forRoot(reducers, { metaReducers })
     ],
     providers: [],
     bootstrap: [AppComponent]
