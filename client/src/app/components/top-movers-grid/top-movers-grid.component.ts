@@ -16,6 +16,7 @@ import {Subject} from "rxjs/Rx";
 
                          enableSorting
                          deltaRowDataMode
+                         animateRows
 
                          rowSelection="single"
 
