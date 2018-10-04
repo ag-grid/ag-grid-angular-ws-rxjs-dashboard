@@ -1,6 +1,9 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import * as d3 from "d3";
-import {StockChartService} from "../../services/stock-chart.service";
+import {clone, map} from 'lodash'
+import {Store} from "@ngrx/store";
+
+import * as fromFinancialData from '../../reducers/financial-data.reducer';
 
 @Component({
     selector: 'stock-price-historical-chart-panel',
@@ -28,7 +31,7 @@ export class StockPriceHistoricalChartPanelComponent implements OnInit {
 
     @ViewChild('historyGraph') private historyGraph: ElementRef;
 
-    constructor(private stockChartService: StockChartService) {
+    constructor(private store: Store<{ financialData: fromFinancialData.State }>) {
 
         this.renderingWidth = this.graphWidth - this.margin.left - this.margin.right;
         this.renderingheight = this.graphHeight - this.margin.top - this.margin.bottom;
@@ -45,12 +48,10 @@ export class StockPriceHistoricalChartPanelComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.stockChartService.currentExchangeTickerData$.subscribe(
-            (tickerDetail: any) => {
-                this.historicalData = tickerDetail ? tickerDetail.historicalData : null;
-                this.renderGraph();
-            }
-        );
+        this.store.subscribe((messageData) => {
+            this.historicalData = messageData ? messageData.financialData.historicalData : null;
+            this.renderGraph();
+        });
     }
 
     renderGraph() {
@@ -58,7 +59,8 @@ export class StockPriceHistoricalChartPanelComponent implements OnInit {
             return;
         }
 
-        let data = this.historicalData;
+        // d3 will modify the array, so clone it first
+        let data = map(this.historicalData, clone);
         let parseTime = d3.timeParse("%d-%m-%Y");
         data.forEach((datum) => {
             datum.date = parseTime(datum.date);

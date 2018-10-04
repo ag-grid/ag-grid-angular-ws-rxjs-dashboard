@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {StockChartService} from "../../services/stock-chart.service";
+import {Store} from "@ngrx/store";
+
+import * as fromFinancialData from '../../reducers/financial-data.reducer';
 
 @Component({
     selector: 'stock-price-delta-panel',
@@ -50,20 +52,19 @@ export class StockPriceDeltaPanelComponent implements OnInit {
     private delta: any;
     private deltaPercentage: any;
 
-    constructor(private stockChartService: StockChartService) {
+    constructor(private store: Store<{ financialData: fromFinancialData.State }>) {
     }
 
     ngOnInit() {
-        this.stockChartService.currentExchangeTickerData$.subscribe(
-            (tickerDetail: any) => {
-                this.pricingDelta = tickerDetail ? tickerDetail.pricingDelta : null;
-                this.updatePricingData()
+        this.store.subscribe((messageData) => {
+                this.pricingDelta = messageData ? messageData.financialData.pricingDelta : null;
+                this.updatePricingData();
             }
         );
     }
 
     updatePricingData() {
-        if(!this.pricingDelta) {
+        if (!this.pricingDelta) {
             return;
         }
         this.currentPrice = this.pricingDelta.currentPrice;

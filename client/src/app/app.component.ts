@@ -1,4 +1,11 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Store} from "@ngrx/store";
+import {WebSocketSubject} from "rxjs/internal/observable/dom/WebSocketSubject";
+import {Subject} from "rxjs/Rx";
+
+import {MESSAGE_DATA} from "./types/types";
+import * as fromFinancialData from './reducers/financial-data.reducer';
+import {LoadFinancialData} from "./actions/financial-data.actions";
 
 @Component({
     selector: 'app-root',
@@ -9,7 +16,7 @@ import {Component} from '@angular/core';
                     <price-changes-grid></price-changes-grid>
                 </div>
                 <div style="float: left">
-                    <stock-price-delta-panel></stock-price-delta-panel>                    
+                    <stock-price-delta-panel></stock-price-delta-panel>
                     <stock-price-summary-panel></stock-price-summary-panel>
                     <stock-price-historical-chart-panel></stock-price-historical-chart-panel>
                 </div>
@@ -30,5 +37,18 @@ import {Component} from '@angular/core';
     styles: [`
     `]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+    private socket$: Subject<MESSAGE_DATA>;
+
+    constructor(private store: Store<{ financialData: fromFinancialData.State }>) {
+    }
+
+    ngOnInit(): void {
+        this.socket$ = new WebSocketSubject('ws:localhost:8999');
+
+        this.socket$.subscribe(
+            (messageData) => this.store.dispatch(new LoadFinancialData(messageData)),
+            (err) => console.error(err)
+        );
+    }
 }

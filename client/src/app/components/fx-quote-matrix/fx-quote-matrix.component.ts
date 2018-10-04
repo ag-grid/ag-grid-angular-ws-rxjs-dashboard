@@ -1,11 +1,11 @@
 import {Component} from '@angular/core';
-import {WebSocketSubject} from 'rxjs/webSocket';
-import {Subject} from "rxjs/Rx";
 import {GridApi, GridReadyEvent} from "ag-grid-community";
+import {Store} from "@ngrx/store";
 
 import {HorizontalBarComponent} from "../renderers/horizontal-bar/horizontal-bar.component";
 import {FX_CURRENCY_SYMBOLS} from "../../data/staticData";
-import {MESSAGE_DATA, ROW_DATA} from "../../types/types";
+import {ROW_DATA} from "../../types/types";
+import * as fromFinancialData from '../../reducers/financial-data.reducer';
 
 @Component({
     selector: 'fx-quote-matrix',
@@ -32,26 +32,16 @@ export class FxQuoteMatrixComponent {
     private columnDefs: any;
     private rowData: ROW_DATA;
 
-    private socket$: Subject<MESSAGE_DATA>;
-
-    constructor() {
+    constructor(private store: Store<{ financialData: fromFinancialData.State }>) {
         this.columnDefs = this.createColumnDefs();
     }
 
     private onGridReady(params: GridReadyEvent) {
         this.api = params.api;
-        this.initWebSocket();
+
+        this.store.subscribe((messageData) => this.rowData = messageData.financialData.fxData);
     }
 
-    private initWebSocket() {
-        this.socket$ = new WebSocketSubject('ws:localhost:8999');
-
-        const that = this;
-        this.socket$.subscribe(
-            (messageData) => that.rowData = messageData.fxData,
-            (err) => console.error(err)
-        );
-    }
 
     getRowNodeId(data) {
         return data.symbol;

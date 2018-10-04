@@ -1,9 +1,10 @@
 import {Component} from '@angular/core';
 import {GridApi, GridReadyEvent} from "ag-grid-community";
-import {WebSocketSubject} from "rxjs/internal/observable/dom/WebSocketSubject";
+import {Store} from "@ngrx/store";
+
 import {FirstDataRenderedEvent} from "ag-grid-community/dist/lib/events";
-import {MESSAGE_DATA, ROW_DATA} from "../../types/types";
-import {Subject} from "rxjs/Rx";
+import {ROW_DATA} from "../../types/types";
+import * as fromFinancialData from '../../reducers/financial-data.reducer';
 
 @Component({
     selector: 'top-movers-grid',
@@ -33,9 +34,7 @@ export class TopMoversGridComponent {
     private columnDefs: any[];
     private rowData: ROW_DATA;
 
-    private socket$: Subject<MESSAGE_DATA>;
-
-    constructor() {
+    constructor(private store: Store<{ financialData: fromFinancialData.State }>) {
         this.columnDefs = [
             {
                 field: 'symbol',
@@ -69,21 +68,11 @@ export class TopMoversGridComponent {
 
     private onGridReady(params: GridReadyEvent) {
         this.api = params.api;
-        this.initWebSocket();
+        this.store.subscribe((messageData) => this.rowData = messageData.financialData.topMovers);
     }
 
     private onFirstDataRendered(params: FirstDataRenderedEvent) {
         this.api.sizeColumnsToFit();
-    }
-
-    private initWebSocket() {
-        this.socket$ = new WebSocketSubject('ws:localhost:8999');
-
-        const that = this;
-        this.socket$.subscribe(
-            (messageData) => that.rowData = messageData.topMovers,
-            (err) => console.error(err)
-        );
     }
 
     getRowNodeId(data) {

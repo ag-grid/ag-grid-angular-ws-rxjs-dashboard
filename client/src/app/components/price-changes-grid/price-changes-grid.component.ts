@@ -1,10 +1,11 @@
 import {Component} from '@angular/core';
-import {WebSocketSubject} from 'rxjs/webSocket';
-import {Subject} from "rxjs/Rx";
 import {GridApi, GridReadyEvent} from "ag-grid-community";
-import {MESSAGE_DATA, ROW_DATA} from "../../types/types";
+import {Store} from "@ngrx/store";
+
+import {ROW_DATA} from "../../types/types";
 import {FirstDataRenderedEvent} from "ag-grid-community/dist/lib/events";
-import {StockChartService} from "../../services/stock-chart.service";
+import * as fromFinancialData from '../../reducers/financial-data.reducer';
+import {UpdateChartData} from "../../actions/financial-data.actions";
 
 @Component({
     selector: 'price-changes-grid',
@@ -35,9 +36,7 @@ export class PriceChangesGridComponent {
     private columnDefs: any[];
     private rowData: ROW_DATA;
 
-    private socket$: Subject<MESSAGE_DATA>;
-
-    constructor(private stockChartService: StockChartService) {
+    constructor(private store: Store<{ financialData: fromFinancialData.State }>) {
         this.columnDefs = [
             {
                 field: 'symbol',
@@ -70,7 +69,7 @@ export class PriceChangesGridComponent {
 
     private onGridReady(params: GridReadyEvent) {
         this.api = params.api;
-        this.initWebSocket();
+        this.store.subscribe((messageData) => this.rowData = messageData.financialData.tickerData);
     }
 
     private onFirstDataRendered(params: FirstDataRenderedEvent) {
@@ -78,16 +77,6 @@ export class PriceChangesGridComponent {
         this.api.getModel().getRow(0).setSelected(true);
 
         this.api.sizeColumnsToFit();
-    }
-
-    private initWebSocket() {
-        this.socket$ = new WebSocketSubject('ws:localhost:8999');
-
-        const that = this;
-        this.socket$.subscribe(
-            (messageData) => that.rowData = messageData.tickerData,
-            (err) => console.error(err)
-        );
     }
 
     numberFormatter(params) {
@@ -104,7 +93,6 @@ export class PriceChangesGridComponent {
 
     onSelectionChanged() {
         let selectedNode = this.api.getSelectedNodes()[0];
-
-        this.stockChartService.setSelectedTickerDetail(selectedNode ? selectedNode.data.tickerDetail : null)
+        this.store.dispatch(new UpdateChartData(selectedNode.data.tickerDetail))
     }
 }

@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {StockChartService} from "../../services/stock-chart.service";
+import {Store} from "@ngrx/store";
+import * as fromFinancialData from '../../reducers/financial-data.reducer';
 
 @Component({
     selector: 'stock-price-summary-panel',
@@ -71,14 +72,13 @@ export class StockPriceSummaryPanelComponent implements OnInit {
     private tickerSummary: any;
     private timestamp: string;
 
-    constructor(private stockChartService: StockChartService) {
+    constructor(private store: Store<{ financialData: fromFinancialData.State }>) {
     }
 
     ngOnInit() {
-        this.stockChartService.currentExchangeTickerData$.subscribe(
-            (tickerDetail:any) => {
-                this.tickerSummary = tickerDetail ? tickerDetail.tickerSummary : null;
-                this.timestamp = tickerDetail ? tickerDetail.timestamp : null;
+        this.store.subscribe((messageData) => {
+                this.tickerSummary = messageData ? messageData.financialData.tickerSummary : null;
+                this.timestamp = messageData.financialData ? messageData.financialData.timestamp : null;
             }
         );
     }
