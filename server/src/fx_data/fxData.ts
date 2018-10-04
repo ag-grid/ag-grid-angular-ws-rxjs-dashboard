@@ -4,7 +4,7 @@ import {random} from "../utils/utils";
 
 type ROW_DATA = { [key: string]: string | null | number }
 
-export function createFxMatrixSnapshot() {
+export function createFxMatrixSnapshot() : ROW_DATA[]{
     const columns = FX_CURRENCY_MATRIX[0];
     const data = FX_CURRENCY_MATRIX.slice(1);
 
