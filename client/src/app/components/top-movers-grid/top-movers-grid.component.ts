@@ -17,6 +17,7 @@ import * as fromFinancialData from '../../reducers/financial-data.reducer';
 
                          enableSorting
                          deltaRowDataMode
+                         animateRows
 
                          rowSelection="single"
 
