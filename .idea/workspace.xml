@@ -25,8 +25,6 @@
     <list default="true" id="0606fa5a-1375-489e-9b7d-52543496b092" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dashboard.iml" afterPath="$PROJECT_DIR$/.idea/dashboard.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/reducers/index.ts" afterPath="$PROJECT_DIR$/client/src/app/reducers/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/fx_data/fxData.ts" afterPath="$PROJECT_DIR$/server/src/fx_data/fxData.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,51 +36,81 @@
   <component name="ChangesViewManager" flattened_view="false" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="financial-data.reducer.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/app/reducers/financial-data.reducer.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/server.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            <state relative-caret-position="787">
+              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+                <marker date="1538656809114" expanded="true" signature="458:471" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="472:1398" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="490:963" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="520:551" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="552:637" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="667:678" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="679:944" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="989:1032" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="1033:1383" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="1055:1364" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="1089:1120" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="1121:1208" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="1242:1253" ph="..." />
+                <marker date="1538656809114" expanded="true" signature="1254:1341" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="financial-data.actions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/actions/financial-data.actions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fxData.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/fx_data/fxData.ts">
+      <file leaf-file-name="financial-data.reducer.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/app/reducers/financial-data.reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+            <state relative-caret-position="255">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart-data.reducer.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/reducers/chart-data.reducer.ts">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/reducers/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -92,11 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>HorizontalBarComponent</find>
-      <find>onGridReady</find>
-      <find>pctNetChange</find>
-      <find>barStyle</find>
-      <find>pctNetChangeBar</find>
       <find>FX_CURRENCY_SYMBOLS</find>
       <find>this.fxData</find>
       <find>setSe</find>
@@ -122,6 +145,11 @@
       <find>this.historyGraph</find>
       <find>Chart</find>
       <find>console</find>
+      <find>socket</find>
+      <find>fromFinancialData</find>
+      <find>console.l</find>
+      <find>tickerDetail</find>
+      <find>http</find>
     </findStrings>
     <replaceStrings>
       <replace>initialise</replace>
@@ -136,8 +164,9 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/client/src/app/components</dir>
       <dir>$PROJECT_DIR$/client/src</dir>
+      <dir>$PROJECT_DIR$/client/src/app/components</dir>
+      <dir>$PROJECT_DIR$/client/src/app</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -162,25 +191,27 @@
         <option value="$PROJECT_DIR$/client/src/app/components/renderers/horizontal-bar/horizontal-bar.component.ts" />
         <option value="$PROJECT_DIR$/server/src/staticData.ts" />
         <option value="$PROJECT_DIR$/server/src/utils/utils.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/types/types.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/components/fx-quote-matrix/fx-quote-matrix.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/components/top-movers-grid/top-movers-grid.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/server/src/static_data/staticData.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/components/price-changes-grid/price-changes-grid.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/services/stock-chart.service.ts" />
         <option value="$PROJECT_DIR$/server/src/exchange_data/exchangeData.ts" />
         <option value="$PROJECT_DIR$/server/server.sh" />
         <option value="$PROJECT_DIR$/server/dist/server.js" />
-        <option value="$PROJECT_DIR$/server/src/server.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/components/stock-price-summary-panel/stock-price-summary-panel.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/components/stock-price-delta-panel/stock-price-delta-panel.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/components/stock-price-historical-chart-panel/stock-price-historical-chart-panel.component.ts" />
         <option value="$PROJECT_DIR$/server/package.json" />
         <option value="$PROJECT_DIR$/client/package.json" />
-        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/server/src/fx_data/fxData.ts" />
         <option value="$PROJECT_DIR$/client/src/app/reducers/chart-data.reducer.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/reducers/index.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/stock-price-historical-chart-panel/stock-price-historical-chart-panel.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/price-changes-grid/price-changes-grid.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/fx-quote-matrix/fx-quote-matrix.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/top-movers-grid/top-movers-grid.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/stock-price-delta-panel/stock-price-delta-panel.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/types/types.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/actions/financial-data.actions.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/components/stock-price-summary-panel/stock-price-summary-panel.component.ts" />
+        <option value="$PROJECT_DIR$/server/src/server.ts" />
         <option value="$PROJECT_DIR$/client/src/app/reducers/financial-data.reducer.ts" />
       </list>
     </option>
@@ -258,12 +289,26 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +415,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -380,10 +424,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4117647" sideWeight="0.4801027" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23471074" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4347826" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29795396" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22818312" sideWeight="0.5556978" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22818312" sideWeight="0.5556978" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34039333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -464,6 +508,16 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -478,52 +532,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/app/reducers/index.ts" />
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1538580933216" expanded="true" signature="117:130" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="131:1077" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="149:642" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="179:210" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="211:296" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="326:337" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="338:623" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="668:711" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="712:1062" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="734:1043" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="768:799" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="800:887" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="921:932" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="933:1020" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -561,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/rxjs/src/internal/Subject.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="137" column="45" lean-forward="true" selection-start-line="137" selection-start-column="41" selection-end-line="137" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -617,41 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/data/staticData.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/renderers/horizontal-bar/horizontal-bar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/utils/utils.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/types/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -663,49 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/top-movers-grid/top-movers-grid.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <marker date="1538580933216" expanded="true" signature="117:130" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="131:1077" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="149:642" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="179:210" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="211:296" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="326:337" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="338:623" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="668:711" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="712:1062" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="734:1043" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="768:799" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="800:887" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="921:932" ph="..." />
-            <marker date="1538580933216" expanded="true" signature="933:1020" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/static_data/staticData.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/services/stock-chart.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -733,90 +669,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/server.sh" />
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/stock-price-summary-panel/stock-price-summary-panel.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <marker date="1538580933217" expanded="true" signature="204:245" ph="..." />
-            <marker date="1538580933217" expanded="false" signature="267:282" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="305:1937" ph="..." />
-            <marker date="1538580933217" expanded="false" signature="333:402" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="403:1154" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="427:1133" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="448:584" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="605:750" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="771:905" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="926:1108" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1017:1086" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1188:1922" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1212:1901" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1233:1398" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1419:1551" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1572:1710" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1731:1876" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="1974:2009" ph="{...}" />
-            <marker date="1538580933217" expanded="true" signature="2026:2068" ph="{...}" />
-            <marker date="1538580933217" expanded="true" signature="2085:2202" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/fx-quote-matrix/fx-quote-matrix.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/price-changes-grid/price-changes-grid.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/stock-price-delta-panel/stock-price-delta-panel.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <marker date="1538580933217" expanded="true" signature="223:859" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="256:326" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="352:373" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="374:844" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="411:825" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="518:602" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="709:801" ph="..." />
-            <marker date="1538580933217" expanded="true" signature="898:1001" ph="{...}" />
-            <marker date="1538580933217" expanded="true" signature="1018:1127" ph="{...}" />
-            <marker date="1538580933217" expanded="true" signature="1157:1223" ph="{...}" />
-            <marker date="1538580933217" expanded="true" signature="1253:1322" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/components/stock-price-historical-chart-panel/stock-price-historical-chart-panel.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-            <marker date="1538573846111" expanded="true" signature="270:285" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -825,13 +677,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/client/src/app/actions/update-data.actions.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/actions/financial.actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,35 +701,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/reducers/index.ts">
+    <entry file="file://$PROJECT_DIR$/server/src/fx_data/fxData.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="525">
+          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/fx_data/fxData.ts">
+    <entry file="file://$PROJECT_DIR$/client/node_modules/@ngrx/store/src/models.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/fx-quote-matrix/fx-quote-matrix.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1538656809101" expanded="true" signature="503:531" ph="..." />
+            <marker date="1538656809101" expanded="true" signature="532:863" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/top-movers-grid/top-movers-grid.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="75" lean-forward="false" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+          <folding>
+            <marker date="1538656809106" expanded="false" signature="425:453" ph="..." />
+            <marker date="1538656809106" expanded="true" signature="454:947" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/data/staticData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/renderers/horizontal-bar/horizontal-bar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <marker date="1538491307548" expanded="true" signature="182:200" ph="..." />
+            <marker date="1538491307548" expanded="true" signature="201:652" ph="..." />
+            <marker date="1538491307548" expanded="true" signature="227:237" ph="..." />
+            <marker date="1538491307548" expanded="true" signature="238:579" ph="..." />
+            <marker date="1538491307548" expanded="true" signature="300:560" ph="..." />
+            <marker date="1538491307548" expanded="true" signature="349:537" ph="..." />
+            <marker date="1538491307548" expanded="true" signature="695:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/price-changes-grid/price-changes-grid.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1538656809108" expanded="false" signature="498:526" ph="..." />
+            <marker date="1538656809108" expanded="true" signature="527:1087" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/services/stock-chart.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/stock-price-historical-chart-panel/stock-price-historical-chart-panel.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+            <marker date="1538656809112" expanded="true" signature="346:361" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/stock-price-delta-panel/stock-price-delta-panel.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1538657204467" expanded="true" signature="265:901" ph="..." />
+            <marker date="1538657204467" expanded="true" signature="298:368" ph="..." />
+            <marker date="1538657204467" expanded="true" signature="394:415" ph="..." />
+            <marker date="1538657204467" expanded="true" signature="416:886" ph="..." />
+            <marker date="1538657204467" expanded="true" signature="453:867" ph="..." />
+            <marker date="1538657204467" expanded="true" signature="560:644" ph="..." />
+            <marker date="1538657204467" expanded="true" signature="751:843" ph="..." />
+            <marker date="1538657204467" expanded="true" signature="940:1043" ph="{...}" />
+            <marker date="1538657204467" expanded="true" signature="1060:1169" ph="{...}" />
+            <marker date="1538657204467" expanded="true" signature="1199:1265" ph="{...}" />
+            <marker date="1538657204467" expanded="true" signature="1295:1364" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/reducers/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/types/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/components/stock-price-summary-panel/stock-price-summary-panel.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="78" column="47" lean-forward="true" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1538657204469" expanded="true" signature="245:286" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="308:323" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="346:1978" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="374:443" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="444:1195" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="468:1174" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="489:625" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="646:791" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="812:946" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="967:1149" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="1058:1127" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="1229:1963" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="1253:1942" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="1274:1439" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="1460:1592" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="1613:1751" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="1772:1917" ph="..." />
+            <marker date="1538657204469" expanded="true" signature="2015:2050" ph="{...}" />
+            <marker date="1538657204469" expanded="true" signature="2067:2109" ph="{...}" />
+            <marker date="1538657204469" expanded="true" signature="2126:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state relative-caret-position="787">
+          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/rxjs/src/internal/Subject.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1538656809114" expanded="true" signature="458:471" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="472:1398" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="490:963" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="520:551" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="552:637" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="667:678" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="679:944" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="989:1032" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="1033:1383" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="1055:1364" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="1089:1120" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="1121:1208" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="1242:1253" ph="..." />
+            <marker date="1538656809114" expanded="true" signature="1254:1341" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/actions/financial-data.actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/reducers/financial-data.reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
